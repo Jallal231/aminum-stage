@@ -15,4 +15,17 @@ background-color: azure;
      
      
 
+} 
+ 
+ 
+ 
+#bouton_ajouter
+    font-size: 30px;
 }
+#liste_boutons{
+    
+    flex-direction: row;
+    justify-content: space-around;
+}
+ 
+ 
