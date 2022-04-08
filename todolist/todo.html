@@ -9,32 +9,37 @@
     <title>JAB TODOLIST</title>
 </head>
 
-<body>  
+<body>
+
+    <h1>JAB TODOLIST</h1>
+    <ul id="ma_liste">
+ 
      
-<h1>JAB TODOLIST</h1>
-<ul id ="ma_liste">
-    
 
-</ul>
-  
-<label for="name">Ajouter votre text:</label>
- 
-<input type="text" id="Saisie"> 
+    </ul>
 
- 
-<div id="liste_boutons">
+    <div id="section_saisie">
 
-    <button id="bouton_ajouter" value="Ajouter">Ajouter</button>
-    <button id="bouton_ajouter" value="Supprimer">Supprimer</button>
-</div>   
- 
-
- 
-<script src="todo.js"></script>  
+        <div id="section_ajout">
+            <label for="saisie">Ajouter votre text:</label>
+            <input type="text" id="saisie">
+            <button id="bouton_ajouter" class="btn" value="Ajouter">Ajouter</button>
+        </div>
 
 
+        <div id="section_supression">
+            <label for="saisie_supression">Numéro de element a supprimer:</label>
+            <input type="text" id="saisie_supression">
+            <button id="bouton_supprimer" class="btn" value="supprimer">supprimer</button>
+        </div>
 
-</body> 
- 
- 
+    </div>
+
+    <script src="todo.js"></script>
+
+     
+
+</body>
+
+
 </html>
