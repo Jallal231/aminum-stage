@@ -23,16 +23,15 @@ input {
 }
 
 #bouton_ajouter {
-
-
     text-align: left;
+}
 
-
-
+#bouton_clean {
+    text-align: right;
 }
 
 
-.ajouter1 {
+.btnjal {
 
     font-family: arial;
     font-weight: bold;
@@ -48,90 +47,6 @@ input {
 
 }
 
-
-
-.ajouter1:hover {
+.btnjal:hover {
     box-shadow: 0 8px 65px -5px #ff0000;
-}
-
- 
- 
-#bouton_clean{ 
-     
-text-align: right;
-
-}
-
-.clean1 {
-
-    font-family: arial;
-    font-weight: bold;
-    letter-spacing: 1px;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: black;
-    border-radius: 10px;
-    padding: 20px 24px;
-    border-color: green;
-    transition: all .3s;
-    background-color: blue;
-} 
-
-
-
-
-
-.clean1:hover {
-
-    box-shadow: 0 8px 65px -5px #ff0000;
-
-} 
- 
- 
-.generer1 { 
-      
-    font-family: arial;
-    font-weight: bold;
-    letter-spacing: 1px;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: black;
-    border-radius: 10px;
-    padding: 20px 24px;
-    border-color: green;
-    transition: all .3s;
-    background-color: blue;    
-     
-}
-
- 
-.generer1:hover { 
-     
-    box-shadow: 0 8px 65px -5px #ff0000;
-     
-} 
- 
- 
-.rénitialiser1{ 
-     
-    font-family: arial;
-    font-weight: bold;
-    letter-spacing: 1px;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: black;
-    border-radius: 10px;
-    padding: 20px 24px;
-    border-color: green;
-    transition: all .3s;
-    background-color: blue;   
-
-}
- 
-
-  
-.rénitialiser1:hover{ 
-     
-    box-shadow: 0 8px 65px -5px #ff0000;
-
 }
