@@ -11,7 +11,10 @@
 
 <body>
     <h1>JAB Petit Bac</h1>
+   
 
+
+     
     <table>
 
         <tr>
@@ -24,7 +27,8 @@
             <td>Pays </td>
             <td>Fruits</td>
         </tr>
-        <tr>
+       
+        <tr id="les_sujets">
 
             <td><input type="text" id="Lettre"></td>
             <td><input type="text" id="Nom"></td>
@@ -42,11 +46,23 @@
 
     <div id="liste_boutons">
 
-        <button id="bouton_ajouter" value="Ajouter">Ajouter</button>
+        <button id="bouton_ajouter" class="ajouter1" value="Ajouter">Ajouter</button>
+     
+        <button id ="bouton_clean" class="clean1" value="Clean">Clean</button> 
+
+        <button id ="bouton_generer" class="generer1" value="Génerer">Génerer</button>
+ 
+        <button id ="bouton_rénitialiser" class="rénitialiser1" value="Rénitialiser">Rénitialiser</button>
+
 
 
     </div>
-    
+     
+
+    <script src="petitbac.js"></script>
+
+
+
 </body>
 
 </html>

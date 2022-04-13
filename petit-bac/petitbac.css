@@ -1,34 +1,137 @@
- 
- h1{
-     text-align: center;
-     color: black 
- 
- }
-   
-  
- table{
-     width:100%;
-     border: 1px solid blue;
-     text-align: center;
- }
-
-
- td{
-     color:blue;
-     border: 1px solid green;
-     font-size: 1.2em;
- } 
- input{
-     width:95%;
-
- }
-#bouton_ajouter{
+h1 {
     text-align: center;
-
-    font-size: 30px;
+    color: black
 }
-#liste_boutons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+
+
+table {
+    width: 100%;
+    border: 1px solid blue;
+    text-align: center;
+}
+
+
+td {
+    color: blue;
+    border: 1px solid green;
+    font-size: 1.2em;
+}
+
+input {
+    width: 95%;
+
+}
+
+#bouton_ajouter {
+
+
+    text-align: left;
+
+
+
+}
+
+
+.ajouter1 {
+
+    font-family: arial;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 10px;
+    padding: 20px 24px;
+    border-color: green;
+    transition: all .3s;
+    background-color: blue;
+
+}
+
+
+
+.ajouter1:hover {
+    box-shadow: 0 8px 65px -5px #ff0000;
+}
+
+ 
+ 
+#bouton_clean{ 
+     
+text-align: right;
+
+}
+
+.clean1 {
+
+    font-family: arial;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 10px;
+    padding: 20px 24px;
+    border-color: green;
+    transition: all .3s;
+    background-color: blue;
+} 
+
+
+
+
+
+.clean1:hover {
+
+    box-shadow: 0 8px 65px -5px #ff0000;
+
+} 
+ 
+ 
+.generer1 { 
+      
+    font-family: arial;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 10px;
+    padding: 20px 24px;
+    border-color: green;
+    transition: all .3s;
+    background-color: blue;    
+     
+}
+
+ 
+.generer1:hover { 
+     
+    box-shadow: 0 8px 65px -5px #ff0000;
+     
+} 
+ 
+ 
+.rénitialiser1{ 
+     
+    font-family: arial;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 10px;
+    padding: 20px 24px;
+    border-color: green;
+    transition: all .3s;
+    background-color: blue;   
+
+}
+ 
+
+  
+.rénitialiser1:hover{ 
+     
+    box-shadow: 0 8px 65px -5px #ff0000;
+
 }

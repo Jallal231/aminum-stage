@@ -37,4 +37,7 @@ jobs:
           wc -l ./todolist/*.html
           wc -l ./todolist/*.css
           wc -l ./todolist/*.js
+          wc -l ./petit-bac/*.html
+          wc -l ./petit-bac/*.css
+          wc -l ./petit-bac/*.js
        
