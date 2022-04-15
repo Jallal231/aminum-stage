@@ -67,5 +67,8 @@ function nettoyerCase(mots) {
 
     let celule = document.getElementById(mots).value = " ";
     console.log(Case); 
-     
-     
+
+
+}
+ 
+ // TEST
