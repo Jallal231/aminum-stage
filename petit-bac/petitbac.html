@@ -11,11 +11,11 @@
 
 <body>
     <h1>JAB Petit Bac</h1>
-   
 
 
-     
-    <table>
+
+
+    <table id="tableSaisie">
 
         <tr>
             <td>Lettre</td>
@@ -27,7 +27,7 @@
             <td>Pays </td>
             <td>Fruits</td>
         </tr>
-       
+
         <tr id="les_sujets">
 
             <td><input type="text" id="Lettre"></td>
@@ -44,20 +44,46 @@
     <br>
     <br>
 
-    <div id="liste_boutons">
+    
+     
+
+
+
+    
+<div id="liste_boutons">
 
         <button id="bouton_ajouter" class="btnjal" value="Ajouter">Ajouter</button>
-     
-        <button id ="bouton_clean" class="btnjal" value="Clean">Clean</button> 
 
-        <button id ="bouton_generer" class="btnjal" value="Génerer">Génerer</button>
- 
-        <button id ="bouton_rénitialiser" class="btnjal" value="Rénitialiser">Rénitialiser</button>
+        <button id="bouton_clean" class="btnjal" value="Clean">Clean</button>
 
+        <button id="bouton_generer" class="btnjal" value="Génerer">Génerer</button>
 
+        <button id="bouton_renitialiser" class="btnjal" value="Renitialiser">Rénitialiser</button>
 
     </div>
+
+    <br> 
+    <br> 
+     <span id="lettre_generee">LETTRE Generée : </span> <span id="Lettre_de_jeu"> </span> 
+
+<ul>    
      
+     
+   <li>Pour générer votre LETTRE de jeu cliquez sur le bouton Générer.</li>
+   <li>Pour créé votre tableau à la fin de votre manche cliquez sur le bouton Ajouter.</li>
+   <li>Pour effacer tout les mots écrit dans le tableau cliquez sur le bouton Clean.</li> 
+   <li>Pour nettoyer votre tableau après plusieurs partie cliquez sur le bouton Renitialiser. </li>  
+ 
+
+</ul>     
+
+ 
+ <div>  </div>
+<h5>Create by Jallal Abdollahi (JAB)</h5> 
+    
+<h5>Contributors : Guillaume Forestier (GFO) , Juba At Ydir (JAI)</h5>
+
+
 
     <script src="petitbac.js"></script>
 

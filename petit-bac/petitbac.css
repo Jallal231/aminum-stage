@@ -49,4 +49,30 @@ input {
 
 .btnjal:hover {
     box-shadow: 0 8px 65px -5px #ff0000;
+}   
+  
+
+ 
+#liste_boutons { 
+     
+     
+ text-align: center;    
+
+
+} 
+ 
+ 
+#lettre_generee { 
+
+    background-color: red;
+    text-align: center;
+ 
+} 
+ 
+ 
+ 
+h5 {   
+
+    text-align: center;
+    
 }
