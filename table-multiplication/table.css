@@ -10,4 +10,58 @@ table{
     border: solid 1px rgb(0, 26, 255);
        width: 50%;
 
-}   
+}    
+
+  
+
+  
+#tableauCHECKvrai{ 
+     
+background-color: green;
+     
+
+
+}
+  
+#tableauCHECKfaux{ 
+
+    
+   background-color: red;  
+    
+} 
+ 
+ 
+ 
+.btn{ 
+     
+    font-family: arial;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 10px;
+    padding: 20px 24px;
+    border-color: purple;
+    transition: all .3s;
+    background-color: salmon;
+    
+}
+ 
+ 
+ 
+.btnjal:hover{ 
+      
+   box-shadow: 0 8px 65px pink; 
+     
+}
+ 
+
+ 
+
+#liste_boutons{ 
+     
+text-align: center;
+     
+}  
+
