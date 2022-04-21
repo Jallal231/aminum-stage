@@ -40,4 +40,7 @@ jobs:
           wc -l ./petit-bac/*.html
           wc -l ./petit-bac/*.css
           wc -l ./petit-bac/*.js
+          wc -l ./table-multiplication/*.html
+          wc -l ./table-multiplication/*.css
+          wc -l ./table-multiplication/*.js
        
