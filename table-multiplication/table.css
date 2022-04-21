@@ -32,7 +32,7 @@ background-color: green;
  
  
  
-.btn{ 
+.btnjal { 
      
     font-family: arial;
     font-weight: bold;
@@ -42,17 +42,18 @@ background-color: green;
     color: black;
     border-radius: 10px;
     padding: 20px 24px;
-    border-color: purple;
+    border-color: palevioletred;
     transition: all .3s;
-    background-color: salmon;
-    
+    background-color: yellow;
+
+
 }
  
  
  
 .btnjal:hover{ 
       
-   box-shadow: 0 8px 65px pink; 
+    box-shadow: 0 8px 65px -5px blue    ;
      
 }
  
