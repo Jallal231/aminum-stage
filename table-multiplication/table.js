@@ -20,7 +20,7 @@ BoutonCheck.addEventListener("click" ,  check);
 function init() { 
      
     let min = 1;
-    let max = 26;
+    let max = 9;
     let init1 = Math.round(Math.random() * (max - min) + min); 
     let init2 = Math.round(Math.random() * (max - min) + min);
     let input1="input1"
@@ -37,12 +37,32 @@ function init() {
  
 function checkinit () { 
 
-     checkinit("Calcule1" , "Calcule2");
+    let input1=document.getElementById("input1").value;
+    document.getElementById("input1");
      
+    let input2=document.getElementById("input2").value;
+    document.getElementById("input2");
+ 
+    let input3=document.getElementById("input3").value;
+    document.getElementById("input3");
+    
+    // BLOCK DE CODE SI CONDITION VRAI
+
+    if (input3 == input1 * input2) {
+ 
+        console.log("resultat vrai");
+     } else {
+
+         console.log("resultat faux");
+        
+
+       } 
+
 }
  
  function check () { 
       
+    
 
  }
  
